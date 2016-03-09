@@ -15,19 +15,39 @@ cmd+~		切换同一个程序中的不同窗口
 
 
 ##Xcode 快捷键
-cmd+1			工程导航器
-cmd+0			显示/隐藏导航器面板
-cmd+ctrl+0		显示/隐藏实用工具面板
-cmd+shift+F		搜索导航器
-ctrl+6			文件跳转栏(键入方法/变量名+Enter跳转)
-cmd+shift+O		快速打开(键入第一个字母即可快速切换至某个文件或者找到特定的代码行)
-cmd+ctrl+up/down	程序中(Objective-C或C++编写).h and .m文件间的快速切换
-cmd+B			编译
-cmd+R			运行
-cmd+shift+K		清除工程
-cmd+shift+0(zero)	文档和参考
-atl+左键		快速帮助(在类或者方法名上执行)
+cmd+1                    工程导航器
+cmd+0                    显示/隐藏导航器面板
+cmd+ctrl+0               显示/隐藏实用工具面板
+cmd+shift+F              搜索导航器
+ctrl+6                   文件跳转栏(键入方法/变量名+Enter跳转)
+cmd+shift+O              快速打开(键入第一个字母即可快速切换至某个文件或者找到特定的代码行)显示Open Quickly窗口
+cmd+ctrl+up/down         打开配套的文件,在程序中(Objective-C或C++编写).h and .m文件间的快速切换
+cmd+B                    编译
+cmd+R                    运行
+cmd+shift+K              清除工程
+cmd+shift+0(zero)        文档和参考
+atl+左键                  快速帮助(在类或者方法名上执行)
+cmd+->                   定位到行尾
+cmd+->                   定位到行首
+ctrl+F                   前移光标
+ctrl+B                   后移光标
+ctrl+P                   移动光标到上一行
+ctrl+N                   移动光标到下一行
+ctrl+A                   移动光标到本行行首
+ctrl+E                   移动光标到本行行尾
+ctrl+T                   交换光标左右两边的字符
+ctrl+D                   删除光标左右两边字符
+ctrl+K                   删除本行
+ctrl+L                   将光标置于窗口正中央
+cmd+[/]                  左右移代码块
+cmd+alt+[/]              上下移动当前行
 
+
+cmd+Y                    激活/禁用断点
+cmd+ctrl+Y               继续运行(在调试器中有效)
+F6                       跳过
+F7                       跳入
+F8                       跳出
 
 其他快捷键：
 

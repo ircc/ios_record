@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		712893251C8F18BC0092DF02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 712893241C8F18BC0092DF02 /* main.m */; };
+		71F9010A1C90770400A3CA76 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F901091C90770400A3CA76 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		712893211C8F18BC0092DF02 /* 点语法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "点语法"; sourceTree = BUILT_PRODUCTS_DIR; };
 		712893241C8F18BC0092DF02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71F901081C90770400A3CA76 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = "点语法/Person.h"; sourceTree = "<group>"; };
+		71F901091C90770400A3CA76 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = "点语法/Person.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		712893181C8F18BB0092DF02 = {
 			isa = PBXGroup;
 			children = (
+				71F901081C90770400A3CA76 /* Person.h */,
+				71F901091C90770400A3CA76 /* Person.m */,
 				712893231C8F18BC0092DF02 /* 点语法 */,
 				712893221C8F18BC0092DF02 /* Products */,
 			);
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71F9010A1C90770400A3CA76 /* Person.m in Sources */,
 				712893251C8F18BC0092DF02 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,7 +138,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -175,7 +181,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -237,6 +243,7 @@
 				7128932A1C8F18BC0092DF02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
