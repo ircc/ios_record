@@ -23,6 +23,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"打印oc对象:%@", stu);
         
 
+        [stu release];
 
         
         
