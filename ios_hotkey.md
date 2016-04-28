@@ -12,6 +12,14 @@ cmd+shift+D	显示隐藏Dock工具栏
 Ctrl+Space	切换输入法
 cmd+Tab		切换程序
 cmd+~		切换同一个程序中的不同窗口
+cmd+m       窗口最小化
+cmd+z       撤销　　
+cmd+X       剪切　　
+cmd+C       拷贝（Copy）
+cmd+V       粘贴
+cmd+A       全选（All）
+cmd+S       保存（Save)　　
+cmd+F       查找（Find）
 
 
 ##Xcode 快捷键
@@ -25,6 +33,8 @@ cmd+ctrl+up/down         打开配套的文件,在程序中(Objective-C或C++编
 cmd+B                    编译
 cmd+R                    运行
 cmd+shift+K              清除工程
+cmd+F                    文本查找
+cmd+alt+F                文本替换
 cmd+shift+0(zero)        文档和参考
 atl+左键                  快速帮助(在类或者方法名上执行)
 cmd+->                   定位到行尾
@@ -41,6 +51,7 @@ ctrl+K                   删除本行
 ctrl+L                   将光标置于窗口正中央
 cmd+[/]                  左右移代码块
 cmd+alt+[/]              上下移动当前行
+鼠标三击                  选择当前行
 
 
 cmd+Y                    激活/禁用断点
