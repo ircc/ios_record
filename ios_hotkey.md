@@ -73,3 +73,50 @@ F8                       跳出
 “Cmd + . 方便地暂停运行iOS模拟器”— weendex
 
 “我经常使用本文中没有提及的一个快捷操作，在文件上执行‘Command + Option + Shift + Left-click’操作，该组合键可展示一个小尺寸的弹出视图，你可以查看你想要打开它的地方，比如辅助编辑器、标签或者窗口等。”  — Cheezybob
+
+
+xcode
+
+1、切换头文件和m.文件，很实用
+
+Command + control+ 上下箭头键
+
+
+2、go back，回退，干嘛用啊，就是回到你上次打开的页面。
+
+control+command+ 左箭头
+
+go forward 回到你前面打开的页面
+
+control+command+ 右箭头
+
+三、文件  File
+
+新建项目 command+shift+n
+新建文件 command+n
+新建空文件 command+control+n
+打开 command+o
+关闭窗口 command+w
+保存所有文件 command+option+s
+还原到保存时状态 command+u
+
+
+四、编辑代码
+1、代码缩进
+
+左缩进 command+[
+右缩进 command+]
+2、代码编辑
+control-F: 向右一个字符（forward）
+control-B: 向左一个字符（backward）
+control-P: 前一行（previous）
+control-N: 后一行（next）
+control-A: 去行首
+control-E: 到行尾（end）
+control-T: 调换光标两边的字符（transpose）
+control-D: 删除光标右侧字符（delete）
+control-K: 删除本行剩余的字符（kill）
+3、文档内搜索
+Command + F: 搜索
+Command + G: 搜索下一处
+Shift + Command + G: 搜索上一处
